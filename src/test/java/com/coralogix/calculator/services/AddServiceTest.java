@@ -18,8 +18,8 @@ public class AddServiceTest {
         
 
         // then
-        assertEquals(result1.getResult(), 5);
-        assertEquals(result2.getResult(), 9);
+        assertEquals(result1.getResult(), 3);
+        assertEquals(result2.getResult(), 7);
         
     }
 }
