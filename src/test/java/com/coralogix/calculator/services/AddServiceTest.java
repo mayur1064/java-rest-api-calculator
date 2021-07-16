@@ -12,14 +12,14 @@ public class AddServiceTest {
         AddService service = new AddService();
 
         // when
-        Result result1 = service.add(2, 3);
-        Result result2 = service.add(4, 5);
+        Result result1 = service.add(8, 2);
+        Result result2 = service.add(10, 5);
         
         
 
         // then
-        assertEquals(result1.getResult(), 3);
-        assertEquals(result2.getResult(), 7);
+        assertEquals(result1.getResult(), 4);
+        assertEquals(result2.getResult(), 2);
         
     }
 }
